@@ -56,13 +56,19 @@ Access the default Nginx landing page by entering your server's IP address in yo
 ```plaintext
 http://your_server_ip or http://localhost:80
 
-For ubuntu user , you access using ubuntu IP, install net-tools first
+```
+```bash
+For ubuntu user , you can access NGINX using ubuntu IP, install net-tools first
 
 sudo apt install net-tools
-ifconfig
----------------
-http://<Ubuntu-IP:80/
 ```
+```bash
+Run ifconfig on command line to get your IP address
+
+ifconfig
+```
+http://<Ubuntu-IP:80/
+
 
 ## Conclusion
 
